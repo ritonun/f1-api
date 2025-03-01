@@ -1,3 +1,4 @@
 /target
 /dev
 /Cargo.lock
+*.json
