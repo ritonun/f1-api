@@ -10,4 +10,7 @@ async fn main() {
         Ok(response) => response,
         Err(e) => panic!("Error getting session due to {}", e),
     };
+
+    // write data to file
+    f1::write_to_file("temp.json", sessions);
 }
